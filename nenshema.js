@@ -1,4 +1,4 @@
-let bgimg = document.getElementById("bg-image")
+let bgimg = document.getElementById("nen-container")
 function enhancehover() {
     
     bgimg.style.backgroundImage='url("images/enhancer-shema.png")'
