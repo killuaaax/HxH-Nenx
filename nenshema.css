@@ -1,0 +1,80 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;            
+  width: 100vw;           
+  overflow: visible;      
+        
+}
+#bg-image{
+    background-image: url("images/nen-shema.jpg");
+    transition: 0.5s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.circle {
+  position: absolute;
+  width: 102.7px;
+  height: 102.7px;
+  border: solid 2px transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  line-height: 0;
+  font-size: 0;
+}
+.enhancer { top: 130px; left: 489px; }
+
+.enhancer:hover{
+    box-shadow: #227c17 0 0 25px 15px ;
+    
+    
+    transition: 0.3s;
+}
+.specialisation { top: 555px; left: 484px; }
+
+.specialisation:hover{
+    box-shadow: #006cbf 0 0 25px 15px ;
+    
+    
+    transition: 0.5s;
+}
+.emission { top: 238px; left: 296.5px; }
+.emission:hover{
+    box-shadow: #e5a017 0 0 25px 15px ;
+    
+    
+    transition: 0.3s;
+}
+.transmutation { top: 234px; left: 661px; }
+.transmutation:hover{
+    box-shadow: #9b29c5 0 0 25px 15px ;
+    
+    
+    transition: 0.3s;
+}
+.manipulation{top:446px; left:295.8px;}
+.manipulation:hover{
+  box-shadow: #bcbbb9 0 0 25px 25px ;
+    
+    
+    transition: 0.3s;
+}
+.conjuration { top: 449px; left: 662px; }
+.conjuration:hover{
+    box-shadow: #ce111d 0 0 25px 15px ;
+    
+    
+    transition: 0.3s;
+}
+.nen-container {
+    position: relative;
+    width: 1080px;
+    height: 720px;
+    margin: auto;
+}
+

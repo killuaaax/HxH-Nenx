@@ -1,0 +1,47 @@
+html, body {
+    min-height: 140vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient( #e4a118, black);
+}
+h1{
+    text-align: center;
+}
+.text{
+    font-size: 25px ;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.exmpl{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    text-align: center;
+    margin: 55px 0;
+}
+img{
+    height: 250px;
+}
+li{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.back-link {
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.back-link:hover {
+    color: black;
+}
